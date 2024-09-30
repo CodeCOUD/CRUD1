@@ -1,9 +1,8 @@
 <?php
-	$hostname = "autorack.proxy.rlwy.net:29996";
+	$hostname = "autorack.proxy.rlwy.net:27136";
 	$user = "root";
-	$password = "qTMlikRrnEomJUrwvVhjFAnSWBOtzPWr";
+	$password = "cCszlwQpPmRzElFPUlVTPcaCsfBjbzqo";
 	$bbdd = "railway";
-	// mysql://root:qTMlikRrnEomJUrwvVhjFAnSWBOtzPWr@autorack.proxy.rlwy.net:29996/railway
 	$mysqli = new mysqli($hostname, $user, $password, $bbdd);
 	if ($mysqli->connect_error) {
 		die("Conexión fallida: " . $mysqli->connect_error);
