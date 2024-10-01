@@ -1,7 +1,7 @@
 <?php
-	$hostname = "autorack.proxy.rlwy.net:27136";
+	$hostname = "autorack.proxy.rlwy.net:29996";
 	$user = "root";
-	$password = "cCszlwQpPmRzElFPUlVTPcaCsfBjbzqo";
+	$password = "qTMlikRrnEomJUrwvVhjFAnSWBOtzPWr";
 	$bbdd = "railway";
 	$mysqli = new mysqli($hostname, $user, $password, $bbdd);
 	if ($mysqli->connect_error) {
